@@ -25,14 +25,14 @@ class Main
   puts "\n--- Super Ugly Number ----\n\n"
   if $n > 0
 	puts "# Memoization "
-	puts "\nUgly number: #{$dpm[-2]}"
+	puts "Ugly number: #{$dpm[-2]}"
 
 	if $time == true
 	  m.time_diff_milli $t1m, $t2
 	end
 
 	puts "\n# Tabulation "
-	puts "\nUgly number: #{$dpt[-2]}"
+	puts "Ugly number: #{$dpt[-2]}"
 
 	if $time == true
 	  t.time_diff_milli $t1t, $t2
